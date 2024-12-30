@@ -1,0 +1,43 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:c:\Users\webdd\Downloads\EchoTube\.npmrc
+5 silly config load:file:C:\Users\webdd\.npmrc
+6 silly config load:file:C:\Users\webdd\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm exec create-react-app frontend --template typescript
+8 verbose argv "exec" "--" "create-react-app" "frontend" "--template" "typescript"
+9 verbose logfile logs-max:10 dir:c:\Users\webdd\Downloads\EchoTube\npm-cache\_logs\2024-12-29T22_21_07_581Z-
+10 verbose logfile c:\Users\webdd\Downloads\EchoTube\npm-cache\_logs\2024-12-29T22_21_07_581Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 http fetch GET http://registry.npmjs.org/create-react-app attempt 1 failed with ETIMEDOUT
+14 http fetch GET http://registry.npmjs.org/npm attempt 1 failed with ETIMEDOUT
+15 http fetch GET http://registry.npmjs.org/create-react-app attempt 2 failed with ETIMEDOUT
+16 http fetch GET http://registry.npmjs.org/npm attempt 2 failed with ETIMEDOUT
+17 http fetch GET http://registry.npmjs.org/npm attempt 3 failed with ETIMEDOUT
+18 http fetch GET http://registry.npmjs.org/create-react-app attempt 3 failed with ETIMEDOUT
+19 verbose type system
+20 verbose stack FetchError: request to http://registry.npmjs.org/create-react-app failed, reason: connect ETIMEDOUT 73.193.47.237:8080
+20 verbose stack     at ClientRequest.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+20 verbose stack     at ClientRequest.emit (node:events:524:28)
+20 verbose stack     at emitErrorEvent (node:_http_client:104:11)
+20 verbose stack     at _destroy (node:_http_client:892:9)
+20 verbose stack     at onSocketNT (node:_http_client:912:5)
+20 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+21 error code ETIMEDOUT
+22 error syscall connect
+23 error errno ETIMEDOUT
+24 error network request to http://registry.npmjs.org/create-react-app failed, reason: connect ETIMEDOUT 73.193.47.237:8080
+25 error network This is a problem related to network connectivity.
+25 error network In most cases you are behind a proxy or have bad network settings.
+25 error network
+25 error network If you are behind a proxy, please make sure that the
+25 error network 'proxy' config is set properly.  See: 'npm help config'
+26 verbose cwd c:\Users\webdd\Downloads\EchoTube
+27 verbose os Windows_NT 10.0.26100
+28 verbose node v22.12.0
+29 verbose npm  v10.9.0
+30 verbose exit 1
+31 verbose code 1
+32 error A complete log of this run can be found in: c:\Users\webdd\Downloads\EchoTube\npm-cache\_logs\2024-12-29T22_21_07_581Z-debug-0.log

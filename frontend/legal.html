@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Information - EchoTube</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .legal-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--background-primary);
+            box-shadow: var(--shadow-md);
+            border-radius: var(--radius-lg);
+        }
+
+        .legal-container h1 {
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .legal-container section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background-color: var(--background-secondary);
+            border-radius: var(--radius-md);
+        }
+
+        .legal-container h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .legal-container h3 {
+            color: var(--text-primary);
+            margin: 1.5rem 0 1rem;
+        }
+
+        .legal-container p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .legal-container ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .legal-container li {
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        footer a:hover {
+            color: var(--primary-hover);
+        }
+
+        @media (max-width: 768px) {
+            .legal-container {
+                padding: 1rem;
+            }
+
+            .legal-container section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="app-header">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="logo.png" alt="EchoTube Logo" class="logo">
+                    <span class="brand-name">EchoTube</span>
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Dashboard</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="legal-container">
+        <h1>Legal Information</h1>
+        
+        <section id="terms">
+            <h2>Terms of Service</h2>
+            <p>Last updated: December 29, 2024</p>
+            
+            <h3>1. Services Overview</h3>
+            <p>EchoTube provides tools for YouTube content creators to manage their channel content, including:</p>
+            <ul>
+                <li>Comment management and interaction</li>
+                <li>Video analytics and monetization tracking</li>
+                <li>Channel performance metrics</li>
+                <li>Demo mode for API quota management</li>
+            </ul>
+
+            <h3>2. YouTube API Services</h3>
+            <p>This application uses YouTube API Services and requires you to grant specific permissions to:</p>
+            <ul>
+                <li>Access your YouTube account data</li>
+                <li>View and manage your videos</li>
+                <li>View and respond to comments</li>
+                <li>Access monetization and analytics data</li>
+            </ul>
+            
+            <h3>3. Data Collection and Usage</h3>
+            <p>We collect and process the following data:</p>
+            <ul>
+                <li>Video metadata (titles, descriptions, statistics)</li>
+                <li>Comment data and interaction history</li>
+                <li>Monetization status and earnings estimates</li>
+                <li>Channel performance metrics</li>
+            </ul>
+
+            <h3>4. API Quota Management</h3>
+            <p>To ensure service availability:</p>
+            <ul>
+                <li>We implement fair usage limits on API requests</li>
+                <li>Demo mode is provided when API quota is exceeded</li>
+                <li>Cached data may be used to reduce API consumption</li>
+            </ul>
+        </section>
+
+        <section id="privacy">
+            <h2>Privacy Policy</h2>
+            <p>Last updated: December 29, 2024</p>
+
+            <h3>1. Data Collection</h3>
+            <p>We collect the following information through the YouTube API:</p>
+            <ul>
+                <li>Channel information</li>
+                <li>Video data including views, likes, and monetization status</li>
+                <li>Comment data and interaction history</li>
+                <li>Estimated earnings data (for monetized channels)</li>
+            </ul>
+
+            <h3>2. Data Usage</h3>
+            <p>Your data is used to:</p>
+            <ul>
+                <li>Display channel analytics and performance metrics</li>
+                <li>Calculate estimated earnings</li>
+                <li>Provide comment management features</li>
+                <li>Track video performance and monetization status</li>
+                <li>Support demo mode functionality</li>
+            </ul>
+
+            <h3>3. Data Storage</h3>
+            <p>We do not permanently store your YouTube data. All data is fetched in real-time from YouTube's APIs and cached temporarily for performance.</p>
+        </section>
+
+        <section id="gdpr">
+            <h2>GDPR Compliance</h2>
+            <p>Last updated: December 29, 2024</p>
+
+            <h3>1. Data Subject Rights</h3>
+            <p>Under GDPR, you have the right to:</p>
+            <ul>
+                <li>Access your personal data</li>
+                <li>Rectify inaccurate personal data</li>
+                <li>Erase your personal data</li>
+                <li>Restrict processing of your data</li>
+                <li>Data portability</li>
+                <li>Object to processing of your data</li>
+            </ul>
+
+            <h3>2. Data Processing</h3>
+            <p>We process the following data categories:</p>
+            <ul>
+                <li>YouTube account information</li>
+                <li>Channel performance data</li>
+                <li>Video analytics and monetization data</li>
+                <li>Comment interaction history</li>
+                <li>Temporary cache data for API quota management</li>
+            </ul>
+
+            <h3>3. Legal Basis</h3>
+            <p>We process your data based on:</p>
+            <ul>
+                <li>Your consent when connecting your YouTube account</li>
+                <li>Legitimate interests in providing channel management services</li>
+                <li>Contractual necessity to provide our services</li>
+            </ul>
+
+            <h3>4. Data Retention</h3>
+            <p>We retain your data only for as long as necessary to provide our services. You can revoke access to your YouTube account at any time through your Google Account settings.</p>
+        </section>
+
+        <footer>
+            <p>For questions about our legal policies, please contact us at legal@echotube.com</p>
+            <p><a href="index.html">Return to Dashboard</a></p>
+        </footer>
+    </div>
+</body>
+</html>
